@@ -1,313 +1,283 @@
-# Universal Yomitan Dictionaries Collection
+# 📚 Универсальная коллекция словарей для Yomitan
 
-A collection of ready-to-use `.zip` dictionaries for [Yomitan](https://github.com/themoeway/yomitan).
+Готовые к импорту `.zip` словари для расширения [Yomitan](https://github.com/themoeway/yomitan) (бывший Yomichan). Ничего конвертировать не нужно — скачиваете архив и сразу добавляете в расширение.
 
-The collection includes monolingual, bilingual, learner's, specialized and thematic dictionaries for multiple languages. All dictionaries are packaged in a format that can be imported directly into Yomitan.
-
-> **Note:** This repository is a catalog and distribution index for Yomitan dictionaries. Individual dictionaries may have their own copyright and licensing conditions. Check the source and license of each dictionary before redistribution.
-
----
-
-## Table of Contents
-
-* [What Dictionaries Should I Install?](#what-dictionaries-should-i-install)
-* [English](#english)
-
-  * [EN → EN](#en--en)
-  * [EN → RU](#en--ru)
-* [German / Deutsch](#german--deutsch)
-
-  * [DE → RU](#de--ru)
-  * [DE → DE](#de--de)
-* [Kazakh / Қазақша](#kazakh--қазақша)
-
-  * [KK → RU](#kk--ru)
-  * [KK → KK](#kk--kk)
-* [Armenian / Հայերեն](#armenian--հայերեն)
-
-  * [HY → EN](#hy--en)
-  * [HY → RU](#hy--ru)
-* [Hebrew / עברית](#hebrew--עברית)
-
-  * [HE → EN](#he--en)
-  * [HE → RU](#he--ru)
-* [Italian / Italiano](#italian--italiano)
-
-  * [IT → RU](#it--ru)
-* [Installation](#installation)
-* [License & Copyright](#license--copyright)
+### Направления перевода в репозитории:
+* 🎯 **Толковые (моноязычные):** *EN-EN, DE-DE, RU-RU, KK-KK*. Помогают понимать смысл напрямую, без постоянного мысленного перевода на русский.
+* 🇷🇺 **С иностранного на русский:** *EN-RU, FR-RU, ES-RU, ZH-RU и др.* Для чтения статей, книг и просмотра видео с субтитрами.
+* 🔄 **С русского на иностранный:** *RU-EN, RU-IT, RU-ES, RU-KK и др.* Пригодятся при чтении русскоязычных текстов или тем, кто учит русский язык.
+* 🌍 **Между иностранными языками:** *EN-UK, KK-EN, HY-EN, HE-EN*. Двуязычные базы без участия русского языка.
 
 ---
 
-# What Dictionaries Should I Install?
+## 📥 Как скачать
 
-You do not need to install every dictionary in the collection.
+Из-за лимитов GitHub на размер файлов архивы выложены на внешних хранилищах:
 
-For most learners, start with a general-purpose dictionary in the target language. Add bilingual dictionaries when you need quick translations, and specialized dictionaries when you encounter terminology from a particular field.
+* ✈️ **[Скачать через Telegram-канал](ТВОЯ_ССЫЛКА_НА_ТГ)** — файлы разбиты по постам, удобно качать по отдельности.
+* 📁 **[Скачать папку на Google Drive](ТВОЯ_ССЫЛКА_НА_ГУГЛ_ДИСК)** — вся коллекция в одной папке.
 
-### English
-
-**English learners**
-
-* Start with an English-English learner's dictionary.
-* Add an English-Russian dictionary if you use Russian as a support language.
-* Add specialized dictionaries when needed.
-
-### German
-
-* Use a German-English/German-Russian dictionary for quick translations.
-* Add German monolingual dictionaries for definitions and deeper comprehension.
-
-### Kazakh
-
-* Use Kazakh-Russian for translation.
-* Add Kazakh-Kazakh explanatory and phraseological dictionaries for monolingual study.
-* Specialized dictionaries can be useful for terminology.
-
-### Armenian
-
-* Choose Armenian-English or Armenian-Russian depending on your target language and workflow.
-
-### Hebrew
-
-* Use Hebrew-English or Hebrew-Russian dictionaries depending on your needs.
-
-### Italian
-
-* Use Italian-Russian for bilingual lookup.
+> **Пара важных моментов:**
+> 1. **Архивы не нужно распаковывать.** Yomitan устанавливает словари прямо из `.zip`.
+> 2. Версии с пометкой **Compact** — это облегченные варианты, откуда вырезаны длинные примеры предложений и лишняя разметка. Окно перевода получается компактным и не перекрывает половину экрана.
 
 ---
 
-# English
-
-## EN → EN
-
-Monolingual English dictionaries are useful when you want definitions, examples and explanations without immediately translating into another language.
-
-| Dictionary            | Type                 | Description                                            |    Download   |
-| :-------------------- | :------------------- | :----------------------------------------------------- | :-----------: |
-| **Longman (LDOCE 6)** | Learner's Dictionary | Simple definitions and examples; suitable for learners | [Download](#) |
-| **Cambridge (CALD4)** | Learner's Dictionary | Cambridge Advanced Learner's Dictionary                | [Download](#) |
-| **Oxford (OALD)**     | Advanced Learner's   | Oxford Advanced Learner's Dictionary                   | [Download](#) |
-| **Merriam-Webster**   | Advanced Learner's   | Merriam-Webster learner's dictionary                   | [Download](#) |
-
----
-
-## EN → RU
-
-English-Russian dictionaries and specialized terminology databases.
-
-| Dictionary                      | Category / Description                                |    Download   |
-| :------------------------------ | :---------------------------------------------------- | :-----------: |
-| **ABBYY Lingvo Universal**      | General-purpose English-Russian dictionary            | [Download](#) |
-| **ABBYY Lingvo Law**            | Legal terminology                                     | [Download](#) |
-| **ABBYY Lingvo Economics**      | Economics, finance and business                       | [Download](#) |
-| **ABBYY Lingvo Medicine**       | Medical terminology                                   | [Download](#) |
-| **ABBYY Lingvo Computer & IT**  | Computers, programming and IT                         | [Download](#) |
-| **ABBYY Lingvo Technical**      | Science, technology and engineering                   | [Download](#) |
-| **ABBYY Lingvo Oil & Gas**      | Oil and gas industry terminology                      | [Download](#) |
-| **ABBYY Lingvo Automotive**     | Automotive and transportation terminology             | [Download](#) |
-| **ABBYY Lingvo Physics & Math** | Physics, mathematics and exact sciences               | [Download](#) |
-| **Multitran (Full Database)**   | Large terminology and contextual translation database | [Download](#) |
-| **Google Translate Offline DB** | Short, quick translation database                     | [Download](#) |
-| **PocketDictionary**            | Compact general-purpose dictionary                    | [Download](#) |
+## 📋 Оглавление
+- [🇬🇧 Английский (EN-EN, EN-RU, RU-EN, EN-UK)](#-английский)
+- [🇷🇺 Русский (Толковые, энциклопедии, сленг)](#-русский)
+- [🇪🇸 Испанский (ES-RU, RU-ES)](#-испанский)
+- [🇫🇷 Французский (FR-RU, RU-FR)](#-французский)
+- [🇮🇹 Итальянский (IT-RU, RU-IT)](#-итальянский)
+- [🇩🇪 Немецкий (DE-DE, DE-RU)](#-немецкий)
+- [🇨🇳 Китайский (ZH-RU, ZH-ZH)](#-китайский)
+- [🇫🇮 Финский (FI-RU, RU-FI)](#-финский)
+- [🇰🇿 Казахский (KK-KK, KK-RU, RU-KK, KK-EN)](#-казахский)
+- [🌍 Другие языки](#-другие-языки)
+- [⚙️ Инструкция по установке](#️-инструкция-по-установке)
+- [🤝 Как добавить свой словарь](#-как-добавить-свой-словарь-contributing)
+- [❓ Частые вопросы (FAQ)](#-частые-вопросы-faq)
+- [⚖️ Отказ от ответственности (Disclaimer)](#️-отказ-от-ответственности-disclaimer)
 
 ---
 
-# German / Deutsch
+## 🇬🇧 Английский
 
-## DE → RU
+### Английский ➔ Английский (Толковые)
+Хороший способ перейти с перевода на прямое понимание языка.
 
-German-Russian dictionaries, including general-purpose and specialized resources.
+| Словарь | Уровень | Описание |
+| :--- | :---: | :--- |
+| **Longman (LDOCE 6)** | A2–B2 | Простые формулировки на базе 2000 базовых слов. Лучший вариант для перехода с англо-русских словарей. |
+| **Cambridge (CALD4)** | B1–C1 | Четкие академические определения, аккуратная разметка статей. |
+| **Oxford (OALD)** | C1–C2 | Классический подробный словарь, хорошо разбирает оттенки значений. |
+| **Macmillan 2016** | B1–C1 | Делает упор на частотную современную лексику. |
+| **Collins Cobuild** | B1–B2 | Определения написаны полными предложениями (*"If you do something, it means..."*). |
+| **Merriam-Webster (Collegiate 11)** | C1–C2 | Популярный американский словарь; много редких и книжных слов. |
+| **American Heritage 4** | Native | Продвинутый уровень, статьи содержат этимологию и историю слов. |
+| **wty-en-en (Wiktionary)** | Любой | База Викисловаря. Быстрее традиционных словарей пополняется новым сленгом. |
 
-| Dictionary                         | Description                               |    Download   |
-| :--------------------------------- | :---------------------------------------- | :-----------: |
-| **ABBYY Lingvo Universal (DE-RU)** | General-purpose German-Russian dictionary | [Download](#) |
-| **ABBYY Lingvo Law (DE-RU)**       | German-Russian legal terminology          | [Download](#) |
-| **ABBYY Lingvo Tech (DE-RU)**      | German-Russian technical terminology      | [Download](#) |
-| **ABBYY Lingvo Econ (DE-RU)**      | German-Russian economics dictionary       | [Download](#) |
-| **ABBYY Lingvo Med (DE-RU)**       | German-Russian medical dictionary         | [Download](#) |
-| **Langenscheidt Großwörterbuch**   | Large German-Russian dictionary           | [Download](#) |
+### Английский ➔ Русский
+| Словарь | Назначение | Описание |
+| :--- | :---: | :--- |
+| **ABBYY Lingvo Universal** | Основной | Базовый словарь на каждый день. Есть полная версия и версия Compact. |
+| **Multitran (Full Database)** | Контекстный | Огромная база перевода с профессиональными терминами, фразеологизмами и сленгом. |
+| **wty-en-ru (Wiktionary)** | Быстрый поиск | База Викисловаря (доступны версии Gloss и Compact). |
+| **PocketDictionary / Google DB** | Минималистичный | Выдают только 1–2 основных перевода без примеров, чтобы не загромождать экран. |
 
----
+<details>
+<summary>📂 <b>Специализированные словари EN ➔ RU и RU ➔ EN (нажмите, чтобы развернуть)</b></summary>
 
-## DE → DE
+Тематические базы ABBYY Lingvo для учебы, работы и профильных сериалов:
+* **Law & Economics:** Право, финансы, бизнес, бухучет.
+* **Medicine:** Анатомия, фармакология, медицинские термины (пригодится для сериалов вроде *House, M.D.*).
+* **Computers & IT:** Разработка, сетевые технологии, системное администрирование.
+* **Technical & Engineering:** Инженерия, машиностроение, строительство.
+* **Oil & Gas / Automotive:** Нефтегазовая отрасль, автомобильная техника.
+* **Physics & Math / Science:** Точные и естественные науки.
+</details>
 
-German monolingual dictionaries.
-
-| Dictionary                                    | Description                                 |    Download   |
-| :-------------------------------------------- | :------------------------------------------ | :-----------: |
-| **Duden Big (Deutsches Universalwörterbuch)** | Comprehensive German explanatory dictionary | [Download](#) |
-| **Brockhaus**                                 | Encyclopedic dictionary                     | [Download](#) |
-| **Wahrig Deutsches Wörterbuch**               | Comprehensive German dictionary             | [Download](#) |
-
----
-
-# Kazakh / Қазақша
-
-## KK → RU
-
-Kazakh-Russian translation and terminology resources.
-
-| Dictionary                            | Description                            |    Download   |
-| :------------------------------------ | :------------------------------------- | :-----------: |
-| **Kazakh-Russian General Dictionary** | General-purpose translation dictionary | [Download](#) |
-| **Kazakh: Biology**                   | Biological terminology                 | [Download](#) |
-| **Kazakh: Chemistry**                 | Chemical terminology                   | [Download](#) |
-| **Kazakh: Medicine**                  | Medical terminology                    | [Download](#) |
-| **Kazakh: Military Affairs**          | Military and technical terminology     | [Download](#) |
-| **Kazakh: Law**                       | Legal terminology and jurisprudence    | [Download](#) |
-| **Kazakh: Geography & Physics**       | Natural sciences and cartography       | [Download](#) |
+### Английский ➔ Украинский (EN ➔ UK)
+* **ABBYY Lingvo Universal (EN-UK):** Базовый англо-украинский словарь (Standard и Compact).
+* **Business & Law:** Финансовая и правовая терминология.
+* **Wiktionary Gloss:** Быстрый глоссарий для чтения.
 
 ---
 
-## KK → KK
+## 🇷🇺 Русский
 
-Kazakh monolingual dictionaries.
+### Русский ➔ Русский (Толковые и справочники)
+Для тех, кто учит русский, или для чтения классической литературы со старыми словами.
 
-| Dictionary                               | Description                                              |    Download   |
-| :--------------------------------------- | :------------------------------------------------------- | :-----------: |
-| **Қазақ тілінің түсіндірме сөздігі**     | Explanatory dictionary of the Kazakh language            | [Download](#) |
-| **Қазақ тілінің фразеологиялық сөздігі** | Idioms, phraseological expressions and fixed expressions | [Download](#) |
+| Словарь | Уровень | Описание |
+| :--- | :---: | :--- |
+| **БТС (Большой толковый)** | C1+ | Академический словарь под ред. Кузнецова. Современная норма языка. |
+| **Ушаков / Ожегов** | C1+ | Классические нормативные словари XX века. |
+| **Даль (Dahl)** | Native | Словарь живого великорусского языка; пригодится для классики XIX века (Толстой, Достоевский, Гоголь). |
+| **Thesaurus** | B2+ | Словарь синонимов и антонимов. |
+| **Большой Энциклопедический** | Любой | Биографические, исторические и географические справки. |
 
----
+<details>
+<summary>💬 <b>Русский сленг и современный язык (нажмите, чтобы развернуть)</b></summary>
 
-# Armenian / Հայերեն
-
-## HY → EN
-
-Armenian-English dictionaries.
-
-| Dictionary                      | Description                           |    Download   |
-| :------------------------------ | :------------------------------------ | :-----------: |
-| **Bedrossian Armenian-English** | Classical Armenian-English dictionary | [Download](#) |
-| **Webster's Armenian-English**  | Armenian-English dictionary           | [Download](#) |
-
----
-
-## HY → RU
-
-Armenian-Russian dictionaries.
-
-| Dictionary                               | Description                                    |    Download   |
-| :--------------------------------------- | :--------------------------------------------- | :-----------: |
-| **Freelang Armenian Dictionary**         | Basic Armenian-Russian dictionary              | [Download](#) |
-| **Armenian-Russian Academic Dictionary** | Extended Armenian-Russian translation database | [Download](#) |
+Словари для чатов, блогов, YouTube, Twitch и современной прозы:
+* **Urban Dictionary RU:** Городской, молодежный и интернет-сленг.
+* **Net Slang & Computer Slang:** Геймерский жаргон, мемы, сетевые сокращения.
+* **Odessa Slang:** Одесские фразеологизмы и диалектизмы.
+* **Business Slang:** Офисный и корпоративный сленг.
+* **BigCity (2007):** Словарь разговорного языка 2000-х годов.
+* **Smiles:** Справочник текстовых смайлов и ASCII-эмотиконов.
+</details>
 
 ---
 
-# Hebrew / עברית
+## 🇪🇸 Испанский
 
-## HE → EN
+### Испанский ➔ Русский
+| Словарь | Уровень | Описание |
+| :--- | :---: | :--- |
+| **ABBYY Lingvo Universal** | A1–C1 | Основной испано-русский словарь. Рекомендуется ставить первым. |
+| **Modern Usage** | B1+ | Живой разговорный испанский язык Испании. |
+| **Latin American** | B1+ | Латиноамериканский вариант. Очень полезен для дубляжа Netflix и латиноамериканских сериалов. |
+| **Multitran / Wiktionary** | B2+ | Альтернативные базы для поиска редких идиом и фраз. |
+| **Economics** | Профи | Финансы, торговля и коммерческая лексика. |
 
-Hebrew-English resources.
-
-| Dictionary                | Description                               |    Download   |
-| :------------------------ | :---------------------------------------- | :-----------: |
-| **Steinzaltz Dictionary** | Hebrew dictionary with explanations       | [Download](#) |
-| **Frumspeak**             | Religious slang and idiomatic expressions | [Download](#) |
-
----
-
-## HE → RU
-
-Hebrew-Russian resources.
-
-| Dictionary                 | Description                                |    Download   |
-| :------------------------- | :----------------------------------------- | :-----------: |
-| **Iris (Baruch Podolsky)** | Hebrew-Russian dictionary                  | [Download](#) |
-| **Rambam Context**         | Explanatory and contextual Hebrew resource | [Download](#) |
+*(В коллекции есть и обратные базы **RU ➔ ES**: Universal, Разговорник, Экономика).*
 
 ---
 
-# Italian / Italiano
+## 🇫🇷 Французский
 
-## IT → RU
+### Французский ➔ Русский
+| Словарь | Уровень | Описание |
+| :--- | :---: | :--- |
+| **ABBYY Lingvo Universal** | A1–C1 | Основной словарь (включает быструю версию `HoverDictionary`). |
+| **Active** | B1+ | Фокус на активной лексике, предложном управлении глаголов и сочетаемости. |
+| **Idioms** | B2–C2 | Устойчивые выражения, метафоры и поговорки. Помогает при чтении книг и просмотре кино. |
+| **Multitran / Wiktionary** | Любой | Базы для расширения словарного запаса. |
 
-Italian-Russian dictionaries.
+<details>
+<summary>📂 <b>Специализированный французский (FR ➔ RU и RU ➔ FR)</b></summary>
 
-| Dictionary                                 | Description                                       |    Download   |
-| :----------------------------------------- | :------------------------------------------------ | :-----------: |
-| **ABBYY Lingvo Universal (IT-RU)**         | General-purpose Italian-Russian dictionary        | [Download](#) |
-| **Italian-Russian Polytechnic Dictionary** | Technical, scientific and engineering terminology | [Download](#) |
-
----
-
-# Installation
-
-All dictionaries are distributed as `.zip` archives compatible with Yomitan.
-
-**Do not extract the ZIP archive before importing it.**
-
-1. Download the required `.zip` dictionary.
-2. Open the Yomitan settings.
-3. Go to **Dictionaries**.
-4. Select **Import** / **Import Dictionary**.
-5. Select the downloaded `.zip` file.
-6. Wait for the dictionary to finish importing.
-7. Enable or disable the dictionary in your Yomitan dictionary list.
+Тематические базы: Business, Law, Medical, Chemistry, OilAndGas, Polytechnical, Paper.
+</details>
 
 ---
 
-# Dictionary Format
+## 🇮🇹 Итальянский
 
-Yomitan dictionaries are distributed as ZIP archives containing the dictionary data required by Yomitan.
+### Итальянский ➔ Русский
+| Словарь | Уровень | Описание |
+| :--- | :---: | :--- |
+| **ABBYY Lingvo Universal** | A1–B2 | Самая полная общая база; корректно находит начальные формы глаголов. |
+| **Essential** | A1–A2 | Только базовая лексика, не перегружает всплывающее окно редкими терминами. |
+| **wty-it-ru / Multitran** | B1+ | Разговорная речь и неологизмы. |
 
-A typical dictionary archive may contain:
+<details>
+<summary>📂 <b>Специализированный итальянский (IT ➔ RU и RU ➔ IT)</b></summary>
 
-```text
-dictionary.zip
-├── index.json
-├── term_bank_1.json
-├── term_bank_2.json
-├── tag_bank_1.json
-└── ...
-```
-
-The ZIP archive itself should be imported into Yomitan without manually extracting its contents.
+Тематические базы: Automotive, Medical, Economics, Polytechnical, Law, PhraseBook (разговорник).
+</details>
 
 ---
 
-# License & Copyright
+## 🇩🇪 Немецкий
 
-This repository is intended as a catalog and distribution index for Yomitan-compatible dictionaries.
+### Немецкий ➔ Немецкий и Немецкий ➔ Русский
+| Словарь | Направление / Уровень | Описание |
+| :--- | :---: | :--- |
+| **Duden Big (Universalwörterbuch)** | DE-DE (C1+) | Главный нормативный толковый словарь немецкого языка. |
+| **Wahrig Deutsches Wörterbuch** | DE-DE (B2+) | Толковый словарь с более доступными формулировками, чем у Duden. |
+| **Brockhaus** | DE-DE (Любой) | Немецкая универсальная энциклопедия. |
+| **ABBYY Lingvo Universal** | DE-RU (A1–C1) | Базовый двуязычный словарь с указанием рода и форм множественного числа. |
+| **Langenscheidt Großwörterbuch** | DE-RU (A2–B2) | Классический немецко-русский словарь от профильного издательства. |
 
-**Dictionary data may be subject to separate copyrights, licenses, and redistribution restrictions.**
-
-The presence of a dictionary in this collection does not imply that the dictionary itself is released under the license of this repository.
-
-Before redistributing or using a particular dictionary, check:
-
-* the original source;
-* the original license;
-* whether redistribution is permitted;
-* attribution requirements;
-* any restrictions imposed by the dictionary publisher or copyright holder.
-
-Where possible, the original source and license information should be provided alongside each dictionary.
+*Специализированные базы (DE-RU): Law, Tech, Econ, Med.*
 
 ---
 
-# Disclaimer
+## 🇨🇳 Китайский
 
-This repository does not claim ownership of third-party dictionary content unless explicitly stated.
+### Китайский (ZH) ➔ Русский и Китайский ➔ Китайский
+| Словарь | Направление | Описание |
+| :--- | :---: | :--- |
+| **ABBYY Lingvo Universal** | ZH-RU | Базовый словарь иероглифов и словосочетаний (Full и Compact). |
+| **Phonetic List** | ZH-ZH | Справочник чтений пиньинь для проверки произношения. |
+| **MassMedia** | ZH-RU | Лексика прессы, новостей и блогов Weibo. Пригодится при подготовке к HSK 4–6. |
+| **Phrasebook** | ZH-RU | Повседневный разговорник с ходовыми бытовыми фразами. |
 
-If you are a copyright holder and believe that a dictionary in this collection is being distributed in violation of its license or copyright, please contact the repository maintainer with the relevant information and source documentation.
+<details>
+<summary>📂 <b>Специализированный китайский (ZH ➔ RU)</b></summary>
+
+* **Food:** Традиционная китайская кулинария и блюда из меню.
+* **Law & Economics:** Юридическая и финансовая терминология.
+* **Computers:** IT-терминология и лексика интернета.
+* **Medical:** Клиническая и традиционная китайская медицина (ТКМ).
+</details>
 
 ---
 
-# Contributing
+## 🇫🇮 Финский
 
-If you have a Yomitan-compatible dictionary that can be legally redistributed and would fit this collection, contributions are welcome.
+Подборка словарей для FI-RU и RU-FI:
+* **ABBYY Lingvo Universal:** Основная словарная база.
+* **Krotov & Ivenai (Sanasto):** Пользовательские словари, которые хорошо распознают разговорные формы (puhekieli).
+* **Babylon & SDict:** Компактные альтернативные базы.
+* **PhraseBooks:** Разговорники базового уровня.
+* *Специализированные:* Технический, медицинский и пользовательские дополнения.
 
-When submitting a dictionary, please provide:
+---
 
-* dictionary name;
-* language pair;
-* original source;
-* license;
-* redistribution status;
-* short description;
-* Yomitan-compatible `.zip` archive.
+## 🇰🇿 Казахский
 
-Please do not submit copyrighted dictionary data unless its redistribution is permitted by the applicable license or rights holder.
+* **KK ➔ KK (Толковые):** *Түсіндірме сөздігі* (толковый словарь) и *Фразеологиялық сөздігі* (идиомы и устойчивые выражения).
+* **KK ➔ RU / RU ➔ KK:** Общие переводные словари для повседневных текстов.
+* **KK ➔ EN:** Казахско-английский словарь.
+* *Специализированные (RU ➔ KK и KK ➔ RU):* Юриспруденция, биология, химия, медицина, военное дело, черчение, география, физика, математика, педагогика, деловые разговорники.
+
+---
+
+## 🌍 Другие языки
+
+* **🇹🇷 Турецкий (TR-RU):** Universal, Строительный, Викисловарь.
+* **🇵🇹 Португальский (PT-RU):** Universal (европейский и бразильский португальский).
+* **🇳🇴 Норвежский (NO-RU и RU-NO):** Universal (Букмол).
+* **🇩🇰 Датский (DA-RU):** Universal.
+* **🇭🇺 Венгерский (HU-RU):** Universal.
+* **🇵🇱 Польский (RU-PL):** Universal.
+* **🇹🇹 Татарский (TT-RU и RU-TT):** Universal.
+* **🇬🇷 Греческий (RU-EL):** Universal (Новогреческий).
+* **🏛️ Латынь (LA-RU):** Universal (для медиков, биологов и юристов).
+* **🇦🇲 Армянский (HY):** HY-EN (Bedrossian, Webster) и HY-RU (Академический, Freelang).
+* **🇮🇱 Иврит (HE):** HE-EN (Steinzaltz, Frumspeak) и HE-RU (Словарь Баруха Подольского *Iris*, Rambam).
+
+---
+
+## ⚙️ Инструкция по установке
+
+1. Скачайте нужный `.zip` архив по ссылкам в начале страницы. **Архив распаковывать не нужно!**
+2. В браузере откройте **Настройки Yomitan** (клик по значку расширения ➔ шестерёнка).
+3. В левой панели выберите вкладку **Dictionaries** (Словари).
+4. Нажмите **Import dictionary** (Импортировать словарь).
+5. Выберите скачанный `.zip` файл и дождитесь окончания загрузки.
+6. Включите тумблер рядом с добавленным словарем в списке.
+
+---
+
+## 🤝 Как добавить свой словарь (Contributing)
+
+Если у вас есть готовый словарь для Yomitan, которого нет в коллекции:
+* **В Telegram:** напишите в ЛС — [@daiidaiidaiidaii](https://t.me/daiidaiidaiidaii) и скиньте архив или ссылку на облако.
+* **Через GitHub:** откройте тему во вкладке [Issues](https://github.com/Daii1414/yomitan-dictionaries/issues) с описанием и ссылкой, либо сделайте Pull Request.
+
+*Указывайте название словаря, языковую пару (например, FR-RU), уровень и краткое описание.*
+
+---
+
+## ❓ Частые вопросы (FAQ)
+
+**Yomitan выдает ошибку при импорте:**
+* Убедитесь, что внутри архива файлы (`index.json` и банки терминов) лежат прямо в корне, а не во вложенной папке.
+* Не распаковывайте ZIP перед импортом.
+* Проверьте размер файла: при слабом интернете архив мог скачаться не полностью.
+
+**Работает ли это на телефоне?**
+* Да. На Android можно поставить браузер с поддержкой расширений Chrome (например, **Kiwi Browser** или **Firefox Nightly**), установить расширение Yomitan и импортировать те же самые `.zip` архивы.
+
+**В чем разница между обычной версией и Compact?**
+* В версиях Compact вырезаны примеры предложений и объемные цитаты. Остается только прямой перевод, благодаря чему всплывающее окно занимает меньше места при чтении.
+
+---
+
+## ⚖️ Отказ от ответственности (Disclaimer)
+
+Этот репозиторий представляет собой **некоммерческий каталог ссылок**.
+
+* Сами словарные файлы не хранятся на серверах GitHub.
+* Все права на базы данных, торговые марки и материалы принадлежат их законным авторам и издательствам.
+* Файлы каталогизированы энтузиастами исключительно в учебных и ознакомительных целях.
+* Если вы являетесь правообладателем и хотите удалить ссылку на ваш ресурс, напишите в [GitHub Issues](https://github.com/Daii1414/yomitan-dictionaries/issues).
+
+---
+
+⭐️ **Если коллекция сэкономила вам время при настройке — поставьте звездочку репозиторию.**
